@@ -37,7 +37,7 @@
         "styled-components": "^6.0.0-beta.5",
         "three": "^0.169.0",
         "use-resize-observer": "^9.1.0",
-        "via-keyboards": "github:the-via/keyboards",
+        "via-keyboards": "github:keyboards-kap1bala/via-keyboards",
         "wouter": "^2.10.0",
       },
       "devDependencies": {
@@ -1047,7 +1047,7 @@
 
     "uuid": ["uuid@9.0.1", "", { "bin": { "uuid": "dist/bin/uuid" } }, "sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA=="],
 
-    "via-keyboards": ["via-keyboards@github:the-via/keyboards#79ae8d2", { "dependencies": { "@the-via/reader": "^1.14.1", "@types/fs-extra": "^11.0.4", "@types/rimraf": "^4.0.5", "fs-extra": "^11.3.4", "glob": "^13.0.6", "json-stringify-pretty-compact": "^4.0.0", "tsx": "^4.21.0", "typescript": "^6.0.2" }, "bin": { "via-keyboards": "./bin/cli.js" } }, "the-via-keyboards-79ae8d2", "sha512-26c/byM6l+XfM+Corg+Pjp68cqY3eyhHHzDKTZhgfsjAKJ7yTSezrtCYTakideNbFHYcUrx15pngvUp4jWeq4Q=="],
+    "via-keyboards": ["via-keyboards@github:keyboards-kap1bala/via-keyboards#a3b2206", { "dependencies": { "@the-via/reader": "^1.14.3", "@types/fs-extra": "^11.0.4", "@types/rimraf": "^4.0.5", "fs-extra": "^11.3.4", "glob": "^13.0.6", "json-stringify-pretty-compact": "^4.0.0", "tsx": "^4.21.0", "typescript": "^6.0.2" }, "bin": { "via-keyboards": "./bin/cli.js" } }, "keyboards-kap1bala-via-keyboards-a3b2206", "sha512-+Xa67BVJkTeEjV3TKbmPlC0E9GarIUzN7KbC25uyb0HdABvWyZu1aZHyDx3papGYRd1r9+PWaPFKgPgue8dfSQ=="],
 
     "vite": ["vite@4.1.4", "", { "dependencies": { "esbuild": "^0.16.14", "postcss": "^8.4.21", "resolve": "^1.22.1", "rollup": "^3.10.0" }, "optionalDependencies": { "fsevents": "~2.3.2" }, "peerDependencies": { "@types/node": ">= 14", "less": "*", "sass": "*", "stylus": "*", "sugarss": "*", "terser": "^5.4.0" }, "optionalPeers": ["less", "sass", "stylus", "sugarss"], "bin": "bin/vite.js" }, "sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg=="],
 
