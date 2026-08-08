@@ -35,7 +35,7 @@ const defaultStoreData = {
     renderMode: '2D' as const,
     themeMode: 'dark' as const,
     designDefinitionVersion: 'v3' as const,
-    themeName: 'OLIVIA_DARK',
+    themeName: 'NAVY_BLUE_A',
     hostKeyboardLayout: 'keymap_us',
     macroEditor: {
       smartOptimizeEnabled: true,

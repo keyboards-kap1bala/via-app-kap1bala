@@ -1,21 +1,29 @@
 {
-    "name": "VIA",
-	"short_name": "VIA",
-	"description": "VIA - Your keyboard's best friend",
-	"start_url": ".",
+    "name": "卡皮巴拉的VIA",
+    "short_name": "卡皮巴拉VIA",
+    "description": "卡皮巴拉的VIA - Your keyboard's best friend",
+    "start_url": ".",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "/android-chrome-512x512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/android-chrome-maskable-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
         }
     ],
-    "theme_color": "#dadada",
-    "background_color": "#dadada",
+    "theme_color": "#d2bda2",
+    "background_color": "#d2bda2",
     "display": "standalone"
 }
