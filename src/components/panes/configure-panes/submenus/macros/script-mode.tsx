@@ -24,7 +24,7 @@ const TextArea = styled.textarea`
   font-size: 16px;
   line-height: 18px;
   resize: none;
-  font-family: 'Source Code Pro';
+  font-family: 'Source Code Pro', var(--font_mono);
   font-weight: 500;
   &::placeholder {
     color: var(--color_label);

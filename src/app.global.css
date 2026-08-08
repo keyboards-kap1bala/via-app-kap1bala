@@ -9,6 +9,7 @@ html,
 body {
   height: 100%;
 }
+
 .configure-tooltip {
   font-size: 20px !important;
   background-color: rgba(255, 255, 255, 0.4);
@@ -17,16 +18,19 @@ body {
   position: relative;
   color: white;
   background-color: #232c39;
-  font-family: 'Fira Sans', Helvetica, Helvetica Neue, Arial, serif;
-  font-weight: 300;
+  font-family: var(--font_ui);
+  font-weight: 400;
   overflow: hidden;
   margin: 0;
   padding: 0;
   user-select: none;
 }
-button {
-  font-family: 'Fira Sans', Helvetica, Helvetica Neue, Arial, serif;
-  font-weight: 300;
+button,
+input,
+select,
+textarea {
+  font-family: var(--font_ui);
+  font-weight: 400;
 }
 h2 {
   margin: 0;
@@ -52,6 +56,16 @@ a:hover {
   cursor: pointer;
 }
 :root {
+  /* 优先使用系统无衬线字体（含中文），Fira Sans 仅作后备 */
+  --font_ui:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Noto Sans',
+    Roboto, 'Helvetica Neue', Helvetica, Arial, 'Fira Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji';
+  --font_mono:
+    ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
+
   --color_error: #d15e5e;
   --color_light-grey: #d9d9d9;
   --color_medium-grey: #707070;
@@ -63,10 +77,9 @@ a:hover {
   --color_tinge: #c7c3c3;
   --color_tinge-light: #ebe4e4;
   --color_tinge-dark: #796c6c;
-  --box-shadow-keycap: inset -1px -1px 0 rgb(0 0 0 / 20%),
-    inset 1px 1px 0 rgb(255 255 255 / 20%);
+  --box-shadow-keycap:
+    inset -1px -1px 0 rgb(0 0 0 / 20%), inset 1px 1px 0 rgb(255 255 255 / 20%);
   --box-shadow-keyboard: var(--box-shadow-keycap);
-
 }
 
 html[data-theme-mode='dark'] {
@@ -141,10 +154,10 @@ html[data-theme-mode='light'] {
 }
 @keyframes roll {
   0% {
-    transform:  translate3d(-50px, 0px, 0) rotate(-30deg);
+    transform: translate3d(-50px, 0px, 0) rotate(-30deg);
   }
   100% {
-    transform:   translate3d(50px, 0px, 0) rotate(30deg);
+    transform: translate3d(50px, 0px, 0) rotate(30deg);
   }
 }
 @keyframes text-glow {
